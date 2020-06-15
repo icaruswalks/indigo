@@ -4,8 +4,242 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>홈페이지만들기</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/default/css">
+    <link rel="stylesheet" href="./css/mystyle.css">
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    
+    <div id="wrap">
+        <!-- 상단 및 메뉴 -->
+        <header class="header cfixed">
+            <h1 class="logo">
+                <a href="#">INDIGO</a>
+            </h1>
+            <nav>
+                <ul class="gnb">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">WE ARE </a></li>
+                    <li><a href="#">WORK</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- 이미지 슬라이더 -->
+        <article class="slider">
+            <img src="./images/p-images/slide01.jpg" alt="">
+        </article>
+        <!-- 메인 컨텐츠 -->
+        <section class="content">
+            <section class="display-section">
+                <div class="container">
+                    <h2 class="sec-tit">WE ARE</h2>
+                    <p class="desc">
+                        Whether therefore ye eat, or drink, <br> 
+                        or whatsoever ye do, do all to the glory of God.<br>
+                        Give none offence, neither to the Jews, nor to the Gentiles,
+                        nor to the church of God:
+                    </p>
+                </div>
+            </section>
+
+            <section class="promotion-section">
+                <div class="container">
+                    <ul class="promo-list">
+                        <li>
+                            <a href="#"><img src="./images/s-images/promo01.png" alt="">
+                                <h3>HOME</h3>
+                                <P>What a beautiful name it is,</P>
+                        </a>
+                    </li>
+                        <li>
+                            <a href="#"><img src="./images/s-images/promo02.png" alt="">
+                                <h3>WE ARE</h3>
+                                <P>The name of Jesus christ my king</P>
+                        </a>
+                    </li>
+                        <li>
+                            <a href="#"><img src="./images/s-images/promo03.png" alt="">
+                                <h3>BLOG</h3>
+                                <P>What a wonderful name it is,</P>
+                        </a>
+                    </li>
+                        <li>
+                            <a href="#"><img src="./images/s-images/promo04.png" alt="">
+                                <h3>WE ARE</h3>
+                                <P>Nothing compares to this</P>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+            </section>
+
+            <hr class="divider">
+            <section class="work-section cfixed">
+                <h2 class="sec-fit">WORK</h2>
+                <ul class="work-list">
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Running</h3>
+                                <span>running</span>
+                            </div>
+                            <img src="./images/p-images/work01.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Rugby</h3>
+                                <span>rugby</span>
+                            </div>
+                            <img src="./images/p-images/work02.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Weight</h3>
+                                <span>weight</span>
+                            </div>
+                            <img src="./images/p-images/work03.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Marathon</h3>
+                                <span>marathon</span>
+                            </div>
+                            <img src="./images/p-images/work04.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Boxing</h3>
+                                <span>boxing</span>
+                            </div>
+                            <img src="./images/p-images/work05.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Ice Hockey</h3>
+                                <span>ice hocker</span>
+                            </div>
+                            <img src="./images/p-images/work06.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Skate Board</h3>
+                                <span>skate board</span>
+                            </div>
+                            <img src="./images/p-images/work07.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div class="info">
+                                <h3>Basketball</h3>
+                                <span>basketball</span>
+                            </div>
+                            <img src="./images/p-images/work08.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <hr class="divider">
+            <section class="blog-section">
+                <div class="contatiner">
+                    <h2 class="sec-tit">BLOG</h2>
+                    <ul class="blog-list">
+                        <li>
+                            <a href="#">
+                                <img src="./images/p-images/blog01.jpg" alt="">
+                            </a>
+                            <time datetime="2020-06-15">2020/06/15</time>
+                            <a href="#">
+                                <h3>What a powerful Name it is
+                                    What a powerful Name it is
+                                    The Name of Jesus Christ my King</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/p-images/blog02.jpg" alt="">
+                            </a>
+                            <time datetime="2020-06-15">2020/06/15</time>
+                            <a href="#">
+                                <h3>What a powerful Name it is
+                                    Nothing can stand against
+                                    What a powerful Name it is
+                                    The Name of Jesus</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/p-images/blog03.jpg" alt="">
+                            </a>
+                            <time datetime="2020-06-15">2020/06/15</time>
+                            <a href="#">
+                                <h3>What a powerful Name it is
+                                    The Name of Jesus
+                                    What a powerful Name it is
+                                    The Name of Jesus</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="contact-section">
+                <h2 class="sec-tit">CONTACT</h2>
+                <div class="form-box">
+                    <form action="" method="">
+                        <fieldset class="cfixed">
+                            <legend class="blind">CONTACT</legend>
+                            <div class="form">
+                                <label for="name" class="blind">name</label>
+                                <input type="text" id="name" placeholder="Name">
+                                <label for="phone" class="blind">phone</label>
+                                <input type="tel" id="phone" placeholder="Phone">
+                                <label for="e-mail" class="blind">Email</label>
+                                <input type="email" id="email" placeholder="Email Address">
+                            </div>
+                            <div class="textarea">
+                                <label for="message" class="blind">message</label>
+                                <textarea name="message" id="message" placeholder="Message"></textarea>
+                            </div>
+                        </fieldset>
+                        <div class="send-btn">
+                            <button>Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </section>
+        <!-- 하단 영역 -->
+        <footer class="footer">
+            <!-- 지도 -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203.27394279705922!2d127.00005859854113!3d35.39575391243258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3571c11f0ecbac89%3A0xde2224fdc44689c3!2z6rmM66ed6rCQ!5e0!3m2!1sko!2skr!4v1592198793534!5m2!1sko!2skr"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <p class="copyright">Made By Jiyeon</p>
+        </footer>
+    </div>
 </body>
 </html>
